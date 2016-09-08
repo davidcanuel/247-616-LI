@@ -7,9 +7,3 @@ tasks lists
 - [X] add read_me & license  
 - [ ] add source  
 - [ ] add documentation  
-
-
-
-    if (isAwesome){
-      return true
-    }
