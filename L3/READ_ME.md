@@ -3,7 +3,7 @@ this **lab** contain code to use on **linux** or with **cygwin** on windows
 the code allow to connect to a **android phone** and read device info  
 
 todo  
-[X] create lab 3  
-[X] add read_me & licence  
-[ ] add source  
-[ ] add documentation  
+- [X] create lab 3  
+- [X] add read_me & licence  
+- [ ] add source  
+- [ ] add documentation  
