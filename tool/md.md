@@ -2,18 +2,14 @@
 ## h2  
 **bold**  
 *italic*  
-
+~~crossed~~
 
 tasks lists  
 - [X] task done  
 - [ ] task not done 
 
-1. One
-2. Two
-3. Three
-
-* Start a line with a star
-* Profit!
+* bulet 1
+* bulet 2
 
 ```c
 int main(){
@@ -28,3 +24,8 @@ int main(){
 ```
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
