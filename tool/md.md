@@ -23,7 +23,7 @@ int main(){
 }
 ```
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://avatars0.githubusercontent.com/u/22059714?v=3&s=460)
 
 First Header | Second Header
 ------------ | -------------
