@@ -8,8 +8,8 @@ tasks lists
 - [ ] add source  
 - [ ] add documentation  
 
-    
-    void main(void){
-        while(1);
+
+
+    if (isAwesome){
+      return true
     }
-    
