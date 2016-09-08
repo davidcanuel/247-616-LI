@@ -7,3 +7,9 @@ tasks lists
 - [X] add read_me & license  
 - [ ] add source  
 - [ ] add documentation  
+
+    
+    void main(void){
+        while(1);
+    }
+    
