@@ -1,0 +1,13 @@
+#! /bin/bash
+echo D.CA 2016
+if [[ "$#" == 1 ]]; 
+then
+	if [ -f "$1" ]
+	then
+		echo "Est un fichier" 
+	else
+		echo "N'est pas un fichier"
+	fi
+else
+	echo "argument invalid"
+fi
