@@ -1,4 +1,5 @@
 //==========================================
+// by cjh21017 from linuxquestions.org
 // experimental files
 // COMPILE WITH:
 // gcc usb_exp.c -lusb-1.0
