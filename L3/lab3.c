@@ -61,7 +61,7 @@ int main (int argc, char *argv)
     if (descriptor.iManufacturer > 0)
     {
       libusb_get_string_descriptor_ascii(handle, descriptor.iManufacturer, string, 256);
-      if(string != NULL && string != "/0")
+      if(string != NULL)
       {
         printf("string = %s\n",  string);
       }
@@ -71,7 +71,7 @@ int main (int argc, char *argv)
     if (descriptor.iProduct > 0)
     {
       libusb_get_string_descriptor_ascii(handle, descriptor.iProduct, string, 256);
-      if(string != NULL && string != "/0")
+      if(string != NULL)
       {
         printf("string = %s\n",  string);
       }
@@ -81,7 +81,7 @@ int main (int argc, char *argv)
     if (descriptor.iSerialNumber > 0)
     {
       libusb_get_string_descriptor_ascii(handle, descriptor.iSerialNumber, string, 256);
-      if(string != NULL && string != "/0")
+      if(string != NULL)
       {
         printf("string = %s\n",  string);
       }
@@ -91,7 +91,7 @@ int main (int argc, char *argv)
     if (descriptor.bDescriptorType > 0)
     {
       libusb_get_string_descriptor_ascii(handle, descriptor.bDescriptorType, string, 256);
-      if(string != NULL && string != "/0")
+      if(string != NULL)
       {
         printf("string = %s\n",  string);
       }
@@ -101,7 +101,7 @@ int main (int argc, char *argv)
     if (descriptor.bDeviceClass > 0)
     {
       libusb_get_string_descriptor_ascii(handle, descriptor.bDeviceClass, string, 256);
-      if(string != NULL && string != "/0")
+      if(string != NULL)
       {
         printf("string = %s\n",  string);
       }
@@ -111,7 +111,7 @@ int main (int argc, char *argv)
     if (descriptor.bDeviceProtocol > 0)
     {
       libusb_get_string_descriptor_ascii(handle, descriptor.bDeviceProtocol, string, 256);
-      if(string != NULL && string != "/0")
+      if(string != NULL)
       {
         printf("string = %s\n",  string);
       }
@@ -121,7 +121,7 @@ int main (int argc, char *argv)
     if (descriptor.bDeviceSubClass > 0)
     {
       libusb_get_string_descriptor_ascii(handle, descriptor.bDeviceSubClass, string, 256);
-      if(string != NULL && string != "/0")
+      if(string != NULL)
       {
         printf("string = %s\n",  string);
       }
@@ -131,7 +131,7 @@ int main (int argc, char *argv)
     if (descriptor.idProduct > 0)
     {
       libusb_get_string_descriptor_ascii(handle, descriptor.idProduct, string, 256);
-      if(string != NULL && string != "/0")
+      if(string != NULL)
       {
         printf("string = %s\n",  string);
       }
@@ -141,7 +141,7 @@ int main (int argc, char *argv)
     if (descriptor.idVendor > 0)
     {
       libusb_get_string_descriptor_ascii(handle, descriptor.idVendor, string, 256);
-      if(string != NULL && string != "/0")
+      if(string != NULL)
       {
         printf("string = %s\n",  string);
       }
@@ -151,7 +151,7 @@ int main (int argc, char *argv)
     if (descriptor.bcdDevice > 0)
     {
       libusb_get_string_descriptor_ascii(handle, descriptor.bcdDevice, string, 256);
-      if(string != NULL && string != "/0")
+      if(string != NULL)
       {
         printf("string = %s\n",  string);
       }
@@ -161,7 +161,7 @@ int main (int argc, char *argv)
     if (descriptor.bcdUSB > 0)
     {
       libusb_get_string_descriptor_ascii(handle, descriptor.bcdUSB, string, 256);
-      if(string != NULL && string != "/0")
+      if(string != NULL)
       {
         printf("string = %s\n",  string);
       }
@@ -171,7 +171,7 @@ int main (int argc, char *argv)
     if (descriptor.bNumConfigurations > 0)
     {
       libusb_get_string_descriptor_ascii(handle, descriptor.bNumConfigurations, string, 256);
-      if(string != NULL && string != "/0")
+      if(string != NULL)
       {
         printf("string = %s\n",  string);
       }
@@ -181,7 +181,7 @@ int main (int argc, char *argv)
     if (descriptor.bMaxPacketSize > 0)
     {
       libusb_get_string_descriptor_ascii(handle, descriptor.bMaxPacketSize, string, 256);
-      if(string != NULL && string != "/0")
+      if(string != NULL)
       {
         printf("string = %s\n",  string);
       }
@@ -191,7 +191,7 @@ int main (int argc, char *argv)
     if (descriptor.bLength > 0)
     {
       libusb_get_string_descriptor_ascii(handle, descriptor.bLength, string, 256);
-      if(string != NULL && string != "/0")
+      if(string != NULL)
       {
         printf("string = %s\n",  string);
       }
