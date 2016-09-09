@@ -50,9 +50,12 @@ int main (int argc, char *argv)
   libusb_init(NULL);
   nbUsb = libusb_get_device_list(NULL, &devices);
   
+   printf ("nb Device %d\n", nbUsb);
   
-  while (i < numUsbDevs)
+  while (i < nbUsb)
   {
+
+   printf ("Device %d\n", i+1);
     device = devices[i];
     libusb_open(device, &handle);
     libusb_get_device_descriptor(device, &descriptor);
@@ -177,10 +180,10 @@ int main (int argc, char *argv)
       }
     }
     
-    printf("bMaxPacketSize = %d\n", descriptor.bMaxPacketSize);
-    if (descriptor.bMaxPacketSize > 0)
+    printf("bMaxPacketSize = %d\n", descriptor.bMaxPacketSize0);
+    if (descriptor.bMaxPacketSize0 > 0)
     {
-      libusb_get_string_descriptor_ascii(handle, descriptor.bMaxPacketSize, string, 256);
+      libusb_get_string_descriptor_ascii(handle, descriptor.bMaxPacketSize0, string, 256);
       if(string != NULL)
       {
         printf("string = %s\n",  string);
