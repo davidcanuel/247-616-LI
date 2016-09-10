@@ -1,0 +1,66 @@
+dir
+mkdir
+type
+ren
+del
+
+copy con cree un fichier contenanat le texte entrer ensuite
+le CTRL+z termine le fichier
+
+le texte entrer entre la commande copy con et ctrl+z est inscrite
+dans le fichier specifier a la commande copy con
+
+ren essai247616.txt essai247616.bat
+
+helloworld n'est pas une commande reconue
+
+mkdir ESSAI247616
+
+del essai247616.bat
+
+leafpad vim
+lxTerminal
+package manager
+home/desktop
+
+le root est un admin qui a tout les controle et tout les droit. Le compte root ne doit etre utiliser que lorque necesaire !
+
+man
+
+date
+
+mkdir b1
+mkdir b2
+touch b1/f1.txt
+touch b1/f2.txt
+touch b2/f3.txt
+
+./.bashrc
+./.bash_history
+./.bash_profile
+./.inputrc
+./.profile
+./b1
+./b1/f1.txt
+./b1/f2.txt
+./b2
+./b2/f3.txt
+
+2 folder 3 fichier
+
+cat legume.txt
+
+wc -w legume.txt
+
+sort legume.txt
+
+grep Chou legume.txt
+
+return to home directory
+go to parent directory
+go to root directory
+go to bin directory
+write the listing of the directory in the file bidule.txt in the home directory
+go to home directory
+display file bidule.txt
+show nb of word in bidule.txt
