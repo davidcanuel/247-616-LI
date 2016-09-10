@@ -34,7 +34,6 @@ int main (int argc, char *argv)
   unsigned char                    string[256];
   ssize_t                          nbUsb = 0;
   ssize_t                          i = 0;
-  int                              retVal = 0;
   
   libusb_init(NULL);
   nbUsb = libusb_get_device_list(NULL, &devices);
