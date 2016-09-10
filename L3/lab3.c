@@ -9,7 +9,7 @@
 
 //**************************************************
 // lab3.c
-// get android device info from linux by usb
+// get device info from linux by usb
 // 07/09/2016
 // David Canuel
 //**************************************************
@@ -42,8 +42,8 @@ int main (int argc, char *argv)
   
   while (i < nbUsb)
   {
-
-   printf ("Device %d\n", i+1);
+    printf ("Device %d\n", i+1);
+    
     device = devices[i];
     libusb_open(device, &handle);
     libusb_get_device_descriptor(device, &descriptor);

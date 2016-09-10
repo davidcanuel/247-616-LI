@@ -1,7 +1,33 @@
-david@david-virtual-machine:~/Desktop$ sudo ./lab3.out
+david@david-virtual-machine:~/Desktop$ sudo ./usbinfo.out
 [sudo] password for david: 
-nb Device 5
+nb Device 6
 Device 1
+iManufacturer = 1
+string = BlackBerry
+iProduct = 2
+string = BlackBerry
+iSerialNumber = 3
+string = 1162015657
+bDescriptorType = 1
+string = BlackBerry
+bDeviceClass = 0
+bDeviceProtocol = 0
+bDeviceSubClass = 0
+idProduct = 32817
+string = BlackBerry
+idVendor = 4042
+string = BlackBerry
+bcdDevice = 768
+string = BlackBerry
+bcdUSB = 512
+string = BlackBerry
+bNumConfigurations = 1
+string = BlackBerry
+bMaxPacketSize = 64
+string = BlackBerry
+bLength = 18
+string = BlackBerry
+Device 2
 iManufacturer = 3
 string = Linux 4.4.0-36-generic ehci_hcd
 iProduct = 2
@@ -28,11 +54,11 @@ bMaxPacketSize = 64
 string = 0000:02:03.0
 bLength = 18
 string = 0000:02:03.0
-Device 2
+Device 3
 iManufacturer = 1
-string = 0000:02:03.0
+string = VMware
 iProduct = 2
-string = 0000:02:03.0
+string = Virtual Bluetooth Adapter
 iSerialNumber = 3
 string = 000650268328
 bDescriptorType = 1
@@ -57,7 +83,7 @@ bMaxPacketSize = 64
 string = VMware
 bLength = 18
 string = VMware
-Device 3
+Device 4
 iManufacturer = 0
 iProduct = 1
 string = VMware Virtual USB Hub
@@ -82,7 +108,7 @@ bMaxPacketSize = 8
 string = VMware Virtual USB Hub
 bLength = 18
 string = VMware Virtual USB Hub
-Device 4
+Device 5
 iManufacturer = 1
 string = VMware
 iProduct = 2
@@ -107,7 +133,7 @@ bMaxPacketSize = 8
 string = VMware
 bLength = 18
 string = VMware
-Device 5
+Device 6
 iManufacturer = 3
 string = Linux 4.4.0-36-generic uhci_hcd
 iProduct = 2
