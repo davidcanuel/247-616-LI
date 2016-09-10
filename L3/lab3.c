@@ -22,17 +22,6 @@
 #include <string.h>
 #include <unistd.h>
 
-#define IN 0x85
-#define OUT 0x07
-
-#define VID 0x18D1
-#define PID 0x4E22
-
-#define ACCESSORY_PID 0x2D01
-#define ACCESSORY_PID_ALT 0x2D00
-
-#define LEN 2
-
 
 int main (int argc, char *argv)
 {
